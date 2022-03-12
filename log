@@ -110,3 +110,7 @@ test.c:84:13: error: passing argument 1 to restrict-qualified parameter aliases 
 cc1.exe: all warnings being treated as errors
 Compilation failed
 0ec8122
+Sat Mar 12 17:05:43 HSP 2022: 
+ tests:  1|6
+total_score: 10/70
+320cedb
