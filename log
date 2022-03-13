@@ -277,3 +277,23 @@ In file included from test.c:2:0:
               ^~~~~~
 Compilation failed
 ec62105
+Sun Mar 13 23:41:40 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearVector’:
+exercises.c:79:9: error: expected identifier or ‘(’ before ‘->’ token
+   Vector->capacidad = n;
+         ^~
+exercises.c:80:38: error: expected expression before ‘Vector’
+   Vector* datos = (Vector *) calloc (Vector.capacidad,sizeof(Vector));
+                                      ^~~~~~
+exercises.c:80:30: error: too few arguments to function ‘calloc’
+   Vector* datos = (Vector *) calloc (Vector.capacidad,sizeof(Vector));
+                              ^~~~~~
+In file included from test.c:2:0:
+/usr/include/stdlib.h:541:14: note: declared here
+ extern void *calloc (size_t __nmemb, size_t __size)
+              ^~~~~~
+Compilation failed
+d670485
