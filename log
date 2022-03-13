@@ -423,3 +423,14 @@ exercises.c:81:11: error: unused variable ‘datos’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 cb0ea7e
+Sun Mar 13 23:52:48 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearVector’:
+exercises.c:79:11: error: unused variable ‘chapalele’ [-Werror=unused-variable]
+   Vector* chapalele = (Vector*) malloc (sizeof(Vector));
+           ^~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+c311c9c
