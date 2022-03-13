@@ -158,3 +158,15 @@ Sun Mar 13 21:40:32 UTC 2022:
  tests:  2|5
 total_score: 20/70
 d78c501
+Sun Mar 13 21:44:25 UTC 2022: 
+ exercises.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearPersona’:
+exercises.c:60:3: error: implicit declaration of function ‘strcpty’; did you mean ‘strcpy’? [-Werror=implicit-function-declaration]
+   strcpty(datos->rut,rut);
+   ^~~~~~~
+   strcpy
+cc1: all warnings being treated as errors
+Compilation failed
+ad1f579
