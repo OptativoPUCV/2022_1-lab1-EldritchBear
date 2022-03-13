@@ -317,3 +317,13 @@ In file included from test.c:2:0:
               ^~~~~~
 Compilation failed
 53130b6
+Sun Mar 13 23:43:24 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearVector’:
+exercises.c:79:9: error: expected identifier or ‘(’ before ‘->’ token
+   Vector->capacidad = n;
+         ^~
+Compilation failed
+dcd134f
