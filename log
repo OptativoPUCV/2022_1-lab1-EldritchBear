@@ -401,3 +401,14 @@ exercises.c:81:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__
 exercises.c:81:20: error: expected expression before ‘.’ token
 Compilation failed
 c9307a0
+Sun Mar 13 23:50:32 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearVector’:
+exercises.c:81:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘->’ token
+   Vector* chapalele->datos = (Vector *) calloc (n,sizeof(Vector));
+                    ^~
+exercises.c:81:20: error: expected expression before ‘->’ token
+Compilation failed
+f6b04ee
