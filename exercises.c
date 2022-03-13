@@ -79,7 +79,7 @@ Vector * crearVector(int n) {
   Vector* chapalele = (Vector*) malloc (sizeof(Vector));
   //chapalele->capacidad = n;
   chapalele->datos = (Vector *) calloc (n,sizeof(Vector));
-  return chapalele->datos;
+  return chapalele.datos;
 }
 
 /*
