@@ -520,3 +520,17 @@ exercises.c:83:1: error: control reaches end of non-void function [-Werror=retur
 cc1: all warnings being treated as errors
 Compilation failed
 f1d6d39
+Sun Mar 13 23:57:17 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearVector’:
+exercises.c:81:20: error: assignment from incompatible pointer type [-Werror=incompatible-pointer-types]
+   chapalele->datos = (Vector *) calloc (n,sizeof(Vector));
+                    ^
+exercises.c:82:19: error: return from incompatible pointer type [-Werror=incompatible-pointer-types]
+   return chapalele->datos;
+          ~~~~~~~~~^~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+33c1018
