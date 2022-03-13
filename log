@@ -333,3 +333,14 @@ Sun Mar 13 23:43:35 UTC 2022:
  tests:  3|4
 total_score: 30/70
 a29d5f8
+Sun Mar 13 23:47:45 UTC 2022: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearVector’:
+exercises.c:79:11: error: unused variable ‘chapalele’ [-Werror=unused-variable]
+   Vector* chapalele = (Vector*) malloc (sizeof(Vector));
+           ^~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+33acc54
