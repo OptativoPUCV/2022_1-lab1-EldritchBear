@@ -170,3 +170,9 @@ exercises.c:60:3: error: implicit declaration of function ‘strcpty’; did you
 cc1: all warnings being treated as errors
 Compilation failed
 ad1f579
+Sun Mar 13 21:44:33 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+758dff1
