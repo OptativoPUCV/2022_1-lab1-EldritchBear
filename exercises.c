@@ -125,10 +125,10 @@ void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
   int i;
 
   for (i = 0; i < capacidad; i++){
-    c+=(a1+b1);
+    c->datos[i]+=(a1+b1);
   }
 
   for (i = 0; i < capacidad; i++){
-    c+=(a2+b2);
+    c->[i]+=(a2+b2);
   }
 }
