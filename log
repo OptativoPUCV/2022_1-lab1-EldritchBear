@@ -780,3 +780,13 @@ exercises.c:132:26: error: expected identifier before ‘)’ token
                           ^
 Compilation failed
 f6120ce
+Mon Mar 14 01:16:37 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaV2’:
+exercises.c:124:21: error: invalid type argument of ‘->’ (have ‘int’)
+   int capacidad = a1->capacidad;
+                     ^~
+Compilation failed
+1a28e63

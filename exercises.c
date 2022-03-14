@@ -129,6 +129,6 @@ void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
   }
 
   for (i = 0; i < capacidad; i++){
-    c->datos[i]+=(a2+b2->);
+    c->datos[i]+=(a2+b2);
   }
 }
