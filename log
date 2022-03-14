@@ -679,3 +679,25 @@ exercises.c:132:33: error: request for member ‘datos’ in something not a str
                                  ^
 Compilation failed
 0987eb1
+Mon Mar 14 01:11:42 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaV2’:
+exercises.c:124:21: error: invalid type argument of ‘->’ (have ‘int’)
+   int capacidad = a1->capacidad;
+                     ^~
+exercises.c:128:21: error: request for member ‘datos’ in something not a structure or union
+     c->datos[i]+=(a1.datos[i]+b1.datos[i]);
+                     ^
+exercises.c:128:33: error: request for member ‘datos’ in something not a structure or union
+     c->datos[i]+=(a1.datos[i]+b1.datos[i]);
+                                 ^
+exercises.c:132:21: error: invalid type argument of ‘->’ (have ‘int’)
+     c->datos[i]+=(a2->datos[i]+b2->datos[i]);
+                     ^~
+exercises.c:132:34: error: invalid type argument of ‘->’ (have ‘int’)
+     c->datos[i]+=(a2->datos[i]+b2->datos[i]);
+                                  ^~
+Compilation failed
+66089b0
