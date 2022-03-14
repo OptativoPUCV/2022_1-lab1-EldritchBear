@@ -603,3 +603,9 @@ Mon Mar 14 00:36:07 UTC 2022:
  tests:  4|3
 total_score: 40/70
 20501c8
+Mon Mar 14 00:39:16 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  6|2
+total_score: 50/70
+d0693b8
