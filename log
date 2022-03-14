@@ -871,3 +871,9 @@ exercises.c:124:7: error: unused variable ‘capacidad’ [-Werror=unused-variab
 cc1: all warnings being treated as errors
 Compilation failed
 244f38c
+Mon Mar 14 01:25:43 UTC 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  8|0
+total_score: 70/70
+67e43ee
