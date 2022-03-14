@@ -568,3 +568,16 @@ Mon Mar 14 00:02:04 UTC 2022:
  tests:  4|3
 total_score: 40/70
 0884e1e
+Mon Mar 14 00:26:36 UTC 2022: 
+ exercises.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:92:7: error: ‘i’ redeclared as different kind of symbol
+   int i;
+       ^
+exercises.c:91:35: note: previous definition of ‘i’ was here
+ void asignarValor(Vector * v, int i, int valor) {
+                                   ^
+Compilation failed
+9e748da
