@@ -545,3 +545,14 @@ exercises.c:82:20: error: assignment from incompatible pointer type [-Werror=inc
 cc1: all warnings being treated as errors
 Compilation failed
 695a003
+Mon Mar 14 00:00:18 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearVector’:
+exercises.c:82:20: error: assignment from incompatible pointer type [-Werror=incompatible-pointer-types]
+   chapalele->datos = (Vector *) calloc (n,sizeof(int));
+                    ^
+cc1: all warnings being treated as errors
+Compilation failed
+4f7c31d
