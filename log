@@ -767,3 +767,16 @@ exercises.c:132:34: error: invalid type argument of ‘->’ (have ‘int’)
                                   ^~
 Compilation failed
 18cad37
+Mon Mar 14 01:16:30 UTC 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaV2’:
+exercises.c:124:21: error: invalid type argument of ‘->’ (have ‘int’)
+   int capacidad = a1->capacidad;
+                     ^~
+exercises.c:132:26: error: expected identifier before ‘)’ token
+     c->datos[i]+=(a2+b2->);
+                          ^
+Compilation failed
+f6120ce
